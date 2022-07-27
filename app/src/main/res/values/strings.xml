@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conta Breja</string>
+    <string name="new_name">Total de cervejas consumidas:</string>
+    <string name="texto_sobre2">Código e Design: Rodrigo R. (rodrivas78)</string>
+    <string name="texto_sobre">"Parabéns! Você acaba de encontrar o "easter egg" deste aplicativo!</string>
+    <string name="texto_sobre3">Agradecimentos especiais aos colaboradores:  Marcia Magalhães e Julio Battesti </string>
+    <string name="texto_sobre4"> e aos apoiadores:
+        Amanda Rivas, Danilo Gabriel, e os \"Foo Stackers\": Eugenio Olle, Flavio Martins e Fernando Savoia!  </string>
+
+    <string name="action_settings"> Gráficos de Consumo (PRO)</string>
+    <string name="botao1">botao</string>
+</resources>

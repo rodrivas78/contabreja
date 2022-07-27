@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/nova_rodada"
+        android:title="Nova conta (Zerar)"  />
+    <item android:id="@+id/menos_uma"
+        android:title="-1 (Subtrai uma cerveja)" />
+</menu>

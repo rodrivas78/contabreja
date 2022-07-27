@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/title"
+    android:background="@drawable/brejabg"
+    >
+    <!--android:background="#ff9ccdff"-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/resultado"
+        android:textSize="120dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="40dp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
