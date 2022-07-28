@@ -1,8 +1,9 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
-   // compileSdkVersion 26
-   // buildToolsVersion '26.0.2'
+    // compileSdkVersion 26
+    // buildToolsVersion '26.0.2'
     //noinspection GradleCompatible
 
     lintOptions {
@@ -10,8 +11,8 @@ android {
     }
 
     compileOptions.encoding = 'ISO-8859-1'
-    compileSdkVersion 29
-    buildToolsVersion '29'
+    compileSdkVersion 30
+    buildToolsVersion '30'
 
     System.out.println("Hello Gradle!");
 
@@ -19,7 +20,7 @@ android {
         applicationId "com.meuapp.rr.myapplication124"
         minSdkVersion 15
         //targetSdkVersion 28
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 6
         versionName "1.5"
         ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
@@ -33,10 +34,14 @@ android {
 }
 
 dependencies {
-   // compile fileTree(include: ['*.jar'], dir: 'libs')
+    // compile fileTree(include: ['*.jar'], dir: 'libs')
     // compile 'com.android.support:appcompat-v7:26.1.0'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
